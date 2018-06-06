@@ -1,0 +1,14 @@
+name: MidNight
+main: me.sircle.Midnight.MidNight
+version: 1.0
+author: Sircle
+commands:
+ midnight:
+  description: /<command> help
+  permission: midnight.member
+  aliases: [mid]
+permissions:
+ midnight.*:
+  default: op
+  children:
+   midnight.admin: true
