@@ -96,7 +96,7 @@ public class MidNight extends JavaPlugin implements Listener {
 						if (this.midnightOccur) {
 							for (int i = 0; i < 9; i++) {
 								System.out.println(midnightAdminChest.getItem(i));
-								if (p.getInventory().getItem(i) == midnightAdminChest.getItem(i)) {
+								if (p.getInventory().getItem(i).equals(midnightAdminChest.getItem(i))) {
 									if (i == 9) {
 										//Give Midnight Ticket
 									}
